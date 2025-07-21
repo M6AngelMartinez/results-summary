@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container">
+    <section class="container__section section--result">
+      <header class="container__header">
+        <h1 class="header__result">Your Result</h1>
+      </header>
+      
+      <div class="container__result">
+        <span class="container__number">76</span>
+        <small>of 100</small>
+      </div>
+  
+      <p class="text__congratulation">Great</p>
+      <p class="text__description">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+    
+    <section class="container__section section--habilities">
+      <header>
+        <h1 class="habilities__header">Summary</h1>
+      </header>
+
+      <ul class="list__habilities">
+        <li class="list__item item--reaction">
+          <div class="container__list">
+            <img src="./assets/images/icon-reaction.svg" alt="reaction icon">
+            <strong class="text__reaction">Reaction</strong>
+          </div>
+          <strong>80 <span class="score">/100</span></strong>
+        </li>
+        
+        <li class="list__item item--memory">
+          <div class="container__list">
+            <img src="./assets/images/icon-memory.svg" alt="memory icon">
+            <strong class="text__memory">Memory</strong>
+          </div>
+          <strong>92 <span class="score">/100</span></strong>
+        </li>
+
+        <li class="list__item item--verbal">
+          <div class="container__list">
+            <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
+            <strong class="text__verbal">Verbal</strong>
+          </div>
+          <strong>61 <span class="score">/100</span></strong>
+          
+        </li>
+
+        <li class="list__item item--visual">
+          <div class="container__list">
+            <img src="./assets/images/icon-visual.svg" alt="visual icon">
+            <strong class="text__visual">Visual</strong>
+          </div>
+          <strong>72 <span class="score">/100</span></strong>
+        </li>
+      </ul>
+      <nav>
+        <button class="button" type="button">Continue</button>
+      </nav>
+    </section>
+  </main>
+</body>
+</html>
