@@ -28,14 +28,14 @@ Users should be able to:
 
 ## Screenshot
 
-![Screenshot](./assets/images/Captura%20de%20pantalla%202025-07-20%20182757.png)
-![Screenshot](./assets/images/Captura%20de%20pantalla%202025-07-20%20182840.png)
+![Screenshot](./images/Captura%20de%20pantalla%202025-07-20%20182757.png)
+![Screenshot](./images/Captura%20de%20pantalla%202025-07-20%20182840.png)
 
 
 ## Links
 
 - **Solution URL**: [GitHub Repo](https://github.com/M6AngelMartinez/results-summary.git)
-- **Live Site URL**: [Live Site]()
+- **Live Site URL**: [Live Site](https://m6angelmartinez.github.io/results-summary/)
 
 
 ## My process
